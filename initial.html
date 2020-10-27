@@ -1,0 +1,154 @@
+
+<!-- Work CIted:
+        https://www.youtube.com/watch?v=a2UnYs9AA_M
+        https://www.youtube.com/watch?v=7cwRaTqR4k0&t=1108s
+        https://www.youtube.com/watch?v=9YffrCViTVk
+        https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+        https://editor.freelogodesign.org/?lang=en&logo=531519f7-44e3-41d3-955c-d4c046d01604
+        https://www.themediterraneantraveller.com/beautiful-beaches-portugal/
+        https://stackoverflow.com/questions/2941189/how-to-overlay-one-div-over-another-div -->
+
+
+
+        <!DOCTYPE html>
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+            <title>Final Project</title>
+            <link href="myFinalProjectStyle.css" rel="stylesheet" type="text/css">
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+            <script type="text/javascript">
+                $(window).on('scroll', function () {
+                    if ($(window).scrollTop()) {
+                        $('nav').addClass('transparent');
+                    }
+                    else {
+                        $('nav').removeClass('transparent');
+                    }
+                })
+        
+            </script>
+        </head>
+        
+        <body>
+            <span id="Home">
+                <header>
+                    <nav>
+                        <div class="row">
+                            <div class="logo">
+                                <img src="mysterious.jpg" </div>
+        
+                                <ul class="main-nav">
+                                    <li class="active"><a href="#Home"> Home </a></li>
+                                    <li><a href="#About"> About </a></li>
+                                    <li><a href="#Images"> Images </a></li>
+                                    <li><a href="#Video"> Watch Video </a></li>
+                                    <li><a href="#Locations"> Locations </a></li>
+                                </ul>
+                            </div>
+        
+                    </nav>
+        
+        
+                    <div class="hero">
+                        <h1>Final Project</h1>
+                        <h2>Created by Matthew Salguero</h2>
+        
+        
+        
+        
+        
+                    </div>
+        
+                </header>
+            </span>
+        
+            <span id="About">
+        
+                <section class="first-page">
+        
+                    <div class="one-page-hero">
+                        <h1>About</h1>
+                        <div class="box red"></div>
+        
+                        <div class="text">
+        
+                            <p> Hello, welcome to my Webpage. Here you can find very intriguing information about the ocean,
+                                beaches across the world, and other related information that you may find
+                                interesting, so please take a look around. Enjoy!</p>
+        
+                        </div>
+        
+                </section>
+            </span>
+        
+            <span id="Images">
+        
+                <section class="second-page">
+        
+                    <div class="one-page-hero">
+                        <h1>Images</h1>
+                        <div class="features">
+                            <figure>
+                                <img src="download.jpg" alt="My test image">
+                                <figcaption>City Beach</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="Pink_Sky_Beach.jpg" alt="My test image">
+                                <figcaption>Pink Sky Beach</figcaption>
+                            </figure>
+                        </div>
+                </section>
+            </span>
+        
+        
+            <span id="Video">
+        
+                <section class="third-page">
+        
+                    <div class="one-page-hero">
+                        <h1>Video</h1>
+                        <di class='video'>
+                            <iframe width="1000" height="500" src="https://www.youtube.com/embed/STAVSfpayJQ" 
+                            frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+            </span>
+        
+        
+        
+        
+        
+            <span id="Locations">
+                <section class="fourth-page">
+        
+                    <div class="one-page-hero">
+        
+                        <h1>Locations</h1>
+                        <div class="features">
+                            <figure>
+                                <img src="bondi_beach.jpg" alt="My test image">
+                                <figcaption>Bondi Beach, Australia</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="portugal-arrifana.jpeg" alt="My test image">
+                                <figcaption>Praia da Arrifana, Portugal</figcaption>
+                            </figure>
+                        </div>
+        
+                    </div>
+        
+                </section>
+            </span>
+        
+        
+            </div>
+        
+        
+        
+        
+        </body>
+        
+        </html>
